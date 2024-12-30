@@ -1,19 +1,3 @@
-const todos = [
-  { _id: "1", txt: "Learn React", importance: 9, isDone: false },
-  { _id: "2", txt: "Build Todo App", importance: 8, isDone: true },
-];
-
-export const todoService = {
-  query,
-  remove,
-};
-
-async function query(filterBy) {
-  if (!filterBy) return todos;
-  return todos.filter((todo) => todo.txt.includes(filterBy));
-}
-
-async function remove(todoId) {
-  const idx = todos.findIndex((todo) => todo._id === todoId);
-  todos.splice(idx, 1);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f9df1ef2ad80b8b2b96f4216b27d1e9add0338ca37649c307fba40759b1fcfe
+size 455

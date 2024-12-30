@@ -1,13 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { Provider } from "react-redux";
-import store from "./store/store"; // וודא שזה הנתיב הנכון
-import App from "./App";
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(
-  <Provider store={store}>
-    <App />
-  </Provider>
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e40e1ef636c418fa7398413baf621301097e4a8206aa3f79f6bb3ecdd02de623
+size 347

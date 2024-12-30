@@ -1,16 +1,3 @@
-import { configureStore } from "@reduxjs/toolkit";
-
-const initialState = {};
-
-const rootReducer = (state = initialState, action) => {
-  switch (action.type) {
-    default:
-      return state;
-  }
-};
-
-const store = configureStore({
-  reducer: rootReducer,
-});
-
-export default store;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d17f529d5bb4fd17b3f52b31745bc08e68f6e0e67eaaaad5a1c3a293fd21c3e9
+size 282
